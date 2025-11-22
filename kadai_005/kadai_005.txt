@@ -1,0 +1,28 @@
+nagafuchitaihei@MacBook-Pro-8 ~ % mkdir git_challenge
+nagafuchitaihei@MacBook-Pro-8 ~ % cd git_challenge
+nagafuchitaihei@MacBook-Pro-8 git_challenge % git init
+Initialized empty Git repository in /Users/nagafuchitaihei/git_challenge/.git/
+nagafuchitaihei@MacBook-Pro-8 git_challenge % git add hello_world.txt
+nagafuchitaihei@MacBook-Pro-8 git_challenge % git commit -m "1回目"
+[main (root-commit) 55a8b0b] 1回目
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+nagafuchitaihei@MacBook-Pro-8 git_challenge % git add hello_world.txt
+nagafuchitaihei@MacBook-Pro-8 git_challenge % git commit -m "2回目"
+[main f357d4d] 2回目
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+nagafuchitaihei@MacBook-Pro-8 git_challenge % git status
+On branch main
+nothing to commit, working tree clean
+nagafuchitaihei@MacBook-Pro-8 git_challenge % git log
+commit f357d4d202dc9533abf9007fab8efcbcf8626acb (HEAD -> main)
+Author: taihei-n <nagafuchi.nfunfu7@icloud.com>
+Date:   Sat Nov 22 21:18:06 2025 +0900
+
+    2回目
+
+commit 55a8b0b3e473cb3e87c8e25c176765bf044ab53a
+Author: taihei-n <nagafuchi.nfunfu7@icloud.com>
+Date:   Sat Nov 22 21:16:50 2025 +0900
+
+    1回目
